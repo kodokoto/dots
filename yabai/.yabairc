@@ -1,0 +1,15 @@
+yabai -m config layout bsp
+
+yabai -m config top_padding    20
+yabai -m config bottom_padding 20
+yabai -m config left_padding   20
+yabai -m config right_padding  20
+yabai -m config window_gap     20
+#yabai -m config window_opacity on
+#yabai -m config normal_window_opacity 0.5
+yabai -m config window_shadow on
+yabai -m config windiw_border off
+yabai -m rule display=[^]1
+yabai -m rule display=[^]2
+yabai -m config mouse_modifier alt
+yabai -m config mouse_action1 move
